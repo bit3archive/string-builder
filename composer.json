@@ -1,35 +1,48 @@
 {
-	"name": "bit3/php-string-builder",
-	"description": "Java like StringBuilder implementation for PHP",
-	"keywords": ["string"],
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Tristan Lins",
-			"email": "tristan.lins@bit3.de",
-			"homepage": "http://bit3.de",
-			"role": "Developer"
-		}
-	],
-	"support": {
-		"email": "info@bit3.de",
-		"issues": "https://github.com/bit3/php-string-builder/issues",
-		"source": "https://github.com/bit3/php-string-builder"
-	},
-	"require": {
-		"php": ">=5.3"
-	},
-	"require-dev": {
-		"phpunit/phpunit": "3.7.*"
-	},
-	"autoload": {
-		"classmap": [
-			"src/"
-		]
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "1.x-dev"
-		}
-	}
+  "name": "bit3/string-builder",
+  "description": "Java like StringBuilder implementation for PHP",
+  "keywords": ["string"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tristan Lins",
+      "email": "tristan@lins.io",
+      "homepage": "http://bit3.de",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "info@bit3.de",
+    "issues": "https://github.com/bit3/string-builder/issues",
+    "source": "https://github.com/bit3/string-builder"
+  },
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "contao-community-alliance/coding-standard": "~1.0",
+    "contao-community-alliance/build-system": "~1.0",
+    "contao-community-alliance/build-system-all-tasks": "~1.0",
+    "evert/phpdoc-md" : "~0.1"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Bit3\\StringBuilder\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Bit3\\StringBuilder\\Tests\\": "src/"
+    }
+  },
+  "replace": {
+    "bit3/php-string-builder": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-develop": "2.0.x-dev"
+    }
+  }
 }

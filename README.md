@@ -1,7 +1,11 @@
 StringBuilder for PHP
 =====================
 
-[![Build Status](https://api.travis-ci.org/bit3/php-string-builder.png?branch=master)](https://travis-ci.org/bit3/php-string-builder) [![API DOCS](http://apigenerator.org/badge.png)](http://bit3.github.io/php-string-builder/class-StringBuilder.html)
+[![Version](http://img.shields.io/packagist/v/bit3/string-builder.svg?style=flat-square)](https://packagist.org/packages/bit3/string-builder)
+[![Stable Build Status](http://img.shields.io/travis/bit3/string-builder/master.svg?style=flat-square&label=stable build)](https://travis-ci.org/bit3/string-builder)
+[![Upstream Build Status](http://img.shields.io/travis/bit3/string-builder/develop.svg?style=flat-square&label=dev build)](https://travis-ci.org/bit3/string-builder)
+[![License](http://img.shields.io/packagist/l/bit3/string-builder.svg?style=flat-square)](http://spdx.org/licenses/LGPL-3.0+)
+[![Downloads](http://img.shields.io/packagist/dt/bit3/string-builder.svg?style=flat-square)](https://packagist.org/packages/bit3/string-builder)
 
 The benefit of StringBuilder for PHP is to provide a mutable, object oriented string and all required methods to manipulate the string, following the Java StringBuilder.
 
